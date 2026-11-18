@@ -13,7 +13,7 @@ start "Node Backend" cmd /k "cd Nmap_AI\backend && npm start"
 timeout /t 3 /nobreak >nul
 
 echo [3/3] Starting React Frontend on port 3000...
-start "React Frontend" cmd /k "cd Nmap_AI\frontend\NMAP_AI_Scanner && npm run dev"
+start "React Frontend" cmd /k "cd Nmap_AI\frontend && npm run dev"
 
 echo.
 echo All servers are starting!

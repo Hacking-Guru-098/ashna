@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "cd Nmap_AI/frontend/NMAP_AI_Scanner && npm install && npm run build"
+    "build": "cd Nmap_AI/frontend && npm install && npm run build"
   }
 }
