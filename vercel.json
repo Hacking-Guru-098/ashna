@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd Nmap_AI/frontend/NMAP_AI_Scanner && npm install && npm run build",
+  "outputDirectory": "Nmap_AI/frontend/NMAP_AI_Scanner/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
